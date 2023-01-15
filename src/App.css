@@ -2,9 +2,29 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.navbar_wrapper a{
+  padding-left: 30px;
+}
+.delete{
+  background-color: #d23f3f;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.update{
+  background-color: #4ed23f;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
